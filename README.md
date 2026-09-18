@@ -62,9 +62,12 @@ This repository focuses on architecture, decisions, and lessons learned. It inte
 - A backup is not complete until its integrity and restoration process can be verified.
 - Clear naming and separated Compose stacks make troubleshooting significantly easier.
 
+## Operations documentation
+
+- [Deployment, backup, and incident checklist](docs/operations-checklist.md)
+
 ## Next steps
 
-- Expand technical documentation
 - Add sanitized configuration examples
 - Improve alerting and service-level views
 - Document recovery tests
